@@ -1,0 +1,100 @@
+# ============================================================
+# robots.txt — Jericho Feolino Portfolio
+# Domain: https://www.jerichofeolino.com
+# Optimized for SEO, AEO, and GEO
+# Last updated: 2026-05-05
+# ============================================================
+
+# ── SEO: Primary Search Engine Crawlers ──────────────────────
+User-agent: Googlebot
+Allow: /
+Crawl-delay: 1
+
+User-agent: Googlebot-Image
+Allow: /
+
+User-agent: Bingbot
+Allow: /
+Crawl-delay: 1
+
+User-agent: Slurp
+Allow: /
+
+User-agent: DuckDuckBot
+Allow: /
+
+User-agent: YandexBot
+Allow: /
+
+# ── GEO: AI / Generative Engine Crawlers ─────────────────────
+# Allow AI crawlers so this site is included in AI-generated
+# answers, citations, and knowledge base summaries
+
+User-agent: GPTBot
+Allow: /
+
+User-agent: ChatGPT-User
+Allow: /
+
+User-agent: Claude-Web
+Allow: /
+
+User-agent: ClaudeBot
+Allow: /
+
+User-agent: anthropic-ai
+Allow: /
+
+User-agent: Google-Extended
+Allow: /
+
+User-agent: PerplexityBot
+Allow: /
+
+User-agent: YouBot
+Allow: /
+
+User-agent: cohere-ai
+Allow: /
+
+User-agent: Diffbot
+Allow: /
+
+# ── AEO: Social & Rich Preview Crawlers ──────────────────────
+# Powers rich link previews used by voice search & answer engines
+
+User-agent: Twitterbot
+Allow: /
+
+User-agent: facebookexternalhit
+Allow: /
+
+User-agent: LinkedInBot
+Allow: /
+
+User-agent: Slackbot
+Allow: /
+
+User-agent: Discordbot
+Allow: /
+
+# ── Block low-quality scrapers (protect crawl budget) ────────
+
+User-agent: AhrefsBot
+Disallow: /
+
+User-agent: SemrushBot
+Disallow: /
+
+User-agent: MJ12bot
+Disallow: /
+
+User-agent: DotBot
+Disallow: /
+
+# ── Default: Allow all others ─────────────────────────────────
+User-agent: *
+Allow: /
+
+# ── Sitemap ───────────────────────────────────────────────────
+Sitemap: https://www.jerichofeolino.com/sitemap.xml
